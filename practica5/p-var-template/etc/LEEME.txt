@@ -1,0 +1,16 @@
+Practica P-VAR:
+
+Alumno:
+MArio Larin Trancon
+
+Horas dedicadas:
+10-11 horas
+
+Problemas surgidos al realizar la practica:
+Muchos sobretodo al inicializar variables que ya estaban inicializadas y con los ;.
+Respuestas a la preguntas:
+Apartado 1:
+Ej 4-5: Esa resta no da el numero exacto sino qeu un n umnero que se aproxima mucho, esto es porque double y float operan en binario y ciertas operaciones pierden precision.Si queremos que de exacto utilizamos la clase BigDecimal.
+Apartado 4:
+Ej 2: Al convertir el long el int el valor se mantiene porque esta dentro de sus capacidades, al convertirlo en short se produce un desbordamiento y da negativo, al convertirlo a byte se produce un desbordamiento y tambien da negativo..
+Ej 4: Al pasar el nu7mero enorme a float muestra infinity porque el valor es inmensamente mayor a su capacidad, al pasar el pequeño a float da 0 es tan pequeño que esta por debajo de su capacidad, en el caso 3 se producen desbordamientos al forzarlos como tipos mas pequeños.
